@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -8,7 +8,7 @@ import MyFuture from "./pages/MyFuture";
 
 function App() {
   return (
-    <BrowserRouter basename="/react-portfolio-spa">
+    <HashRouter>
       <Header />
 
       <Routes>
@@ -19,7 +19,7 @@ function App() {
       </Routes>
 
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
