@@ -8,7 +8,7 @@ import MyFuture from "./pages/MyFuture";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/react-portfolio-spa">
       <Header />
 
       <Routes>
